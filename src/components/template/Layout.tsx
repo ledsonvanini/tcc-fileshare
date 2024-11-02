@@ -2,11 +2,11 @@ import MenuLateral from './MenuLateral'
 import Cabecalho from './Cabecalho'
 import Conteudo from './Conteudo'
 import ForcarAutenticacao from '../auth/ForcarAutenticacao'
-import useAppData from '../../data/hook/useAppData'
+import useAppData from '@/data/hook/useAppData'
 
 interface LayoutProps {
-    titulo: string
-    subtitulo: string
+    titulo?: string
+    subtitulo?: string
     children?: any
 }
 
